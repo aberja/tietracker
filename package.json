@@ -1,6 +1,6 @@
 {
   "name": "tietracker",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "A local-first time tracking app.",
   "private": true,
   "type": "module",
