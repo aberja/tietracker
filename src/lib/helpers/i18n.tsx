@@ -7,6 +7,7 @@ import enCommon from '../i18n/en/common.json';
 import enExport from '../i18n/en/export.json';
 import enHeader from '../i18n/en/header.json';
 import enHome from '../i18n/en/home.json';
+import enICloud from '../i18n/en/icloud.json';
 import enInvoices from '../i18n/en/invoices.json';
 import enMore from '../i18n/en/more.json';
 import enNotifications from '../i18n/en/notifications.json';
@@ -24,6 +25,7 @@ i18n
     resources: {
       en: {
         backup: enBackup,
+        icloud: enICloud,
         clients: enClients,
         common: enCommon,
         export: enExport,
