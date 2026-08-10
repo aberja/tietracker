@@ -3,7 +3,7 @@
 
   <br/>
 
-  <p><strong>Tie Tracker</strong> - A simple, open source and free time tracking app ⏱️</p>
+  <p><strong>Tie Tracker</strong> - A local-first and only time tracking app ⏱️</p>
 
   <br/>
 
@@ -14,57 +14,35 @@
 
 </div>
 
-## Table of contents
+## 🚀 Getting Started
 
-- [Getting Started](#getting-started)
-- [Features](#features)
-- [Reporting](#reporting)
-- [Goodies](#goodies)
-- [Technical Stack](#technical-stack)
-- [Data](#data)
-- [Development](#development)
-- [License](#license)
+Tie Tracker is a free, local-first time tracking app. It helps you track working hours across clients and projects, with an eye toward eventually invoicing them (the invoices themselves aren't included).
 
-## Getting Started
+## ✨ Features
 
-Tie Tracker is a free and open source time tracking application. Its is meant to be simple and aims to allow you to track working hours across projects.
+- Simple work hours tracking
+- Assign time to clients and projects
+- Define budget per projects
+- Mark entries as billed
+- Backup and restore all your data through Zip files
 
-## Features
+## 📊 Reporting
 
-Track your productivity and billable hours.
+- Weekly work summary
+- Daily list of tasks
+- Export open invoices to XLSX timesheets
 
-- ✅ Simple work hours tracking
-- ✅ Assign time to clients and projects
-- ✅ Define budget per projects
-- ✅ Mark entries as billed
+## 💾 Data
 
-## Reporting
+Your data lives on your mobile device or browser (if you are using the app on the web). There is no server or remote database.
 
-Yet not complicated but effective reporting.
+No analytics nor tracking - even anonymous - are implemented.
 
-- ✅ Weekly work summary
-- ✅ Daily list of activities
-- ✅ Export open invoices to XLSX timesheets (Excel, LibreOffice, Numbers, etc) and PDF
+> [!NOTE]
+> On iOS, iCloud synchronizion is used by default, that way, when you switch to a new phone your data are coming over.
+> The features can be disabled if you rather like to not share those with Apple for privacy reasons.
 
-## Goodies
-
-A simple UX with some extra goodies.
-
-- Light and dark theme
-- Weekly backup
-- Hourly notification for task in progress (only mobile devices)
-
-## Technical Stack
-
-This app is developed with [Ionic](https://ionicframework.com), [React](https://reactjs.org), [React-redux](https://react-redux.js.org), Web Workers and other cool stuffs.
-
-## Data
-
-It works offline, data are saved with IndexedDB.
-
-No analytics nor tracking are implemented.
-
-## Development
+## 🛠️ Development
 
 To develop and run this documentation locally, proceed as following:
 
@@ -72,10 +50,10 @@ To develop and run this documentation locally, proceed as following:
 git clone https://github.com/peterpeterparker/tietracker
 cd tietracker
 npm ci
-ionic serve
+npm run dev
 ```
 
-## License
+## 📄 License
 
 This application is released under the GNU Affero General Public License. Copyright [David Dal Busco](mailto:david.dalbusco@outlook.com). See [COPYING](./COPYING) for more details.
 
