@@ -3,7 +3,7 @@
 
   <br/>
 
-  <p><strong>Tie Tracker</strong> - A local-first and only time tracking app ⏱️</p>
+  <p><strong>Tie Tracker</strong> - A local-first time tracking app ⏱️</p>
 
   <br/>
 
