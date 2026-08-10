@@ -32,7 +32,7 @@ const About: React.FC = () => {
 
                 <p>
                   <IonLabel className={styles.introLabel}>
-                    <strong>Tie Tracker</strong> - A simple, open source and free time tracking app{' '}
+                    <strong>Tie Tracker</strong> - A local-first time tracking app{' '}
                     <span aria-label="stopwatch" role="img">
                       ⏱
                     </span>
