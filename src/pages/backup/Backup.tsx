@@ -189,8 +189,6 @@ const Backup: React.FC<RootProps> = (props) => {
       <>
         <p className={`${styles.text} ion-padding-top`}>{t('backup:text')}</p>
 
-        <p>{t('backup:example')}</p>
-
         <div className={`actions ${styles.actions}`}>{renderManualActions()}</div>
       </>
     );
